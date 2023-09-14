@@ -3,7 +3,7 @@
     color: rgb(250, 247, 247);
     text-align:left;
     font-size: 2rem;
-    margin-left: 30px;
+    margin-left: 40px;
     display: flex;
     align-items: center;
 
@@ -41,13 +41,8 @@ body {
     background-size: cover;
 }
 
-.acessos {
-    color: rgb(235, 141, 74);
-    text-decoration: solid;
-    font-size: 1.5rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
-}
+
+
 
 
 
