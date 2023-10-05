@@ -4,9 +4,6 @@ body {
     background: linear-gradient(to bottom, rgb(245, 102, 0), #ffffff);
     background-repeat: no-repeat;
     background-size: cover;
-    display: block;
-    margin: auto;
-    width: 80%;
 }
 
 .Topo { 
@@ -21,7 +18,7 @@ body {
     align-items: baseline;
     z-index: 999;}
 
-.BláBlaluno {
+.CaronaWy {
     color: rgb(250, 247, 247);
     text-align:left;
     font-size: 2rem;
@@ -44,7 +41,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-size: 15px;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 .botao:hover {
@@ -106,9 +103,6 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-input{
-    width: 30vw;
-}
 
 .tit2{
     text-align: center;
@@ -120,15 +114,6 @@ input{
     flex-direction: column;
     height: 50px;
     width: 100%;
-}
-.facebook-button {
-    background-color: #1877f2;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-    margin-right: 10px;
 }
 
 .sia-button{background-color: #ff290d;
