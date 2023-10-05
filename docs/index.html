@@ -1,35 +1,49 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="aparencia.css">
-<link rel="stylesheet" href="https://getbootstrap.com/docs/5.3/dist/css/bootstrap.min.css">
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>BláBláWy</title>
+    <link rel="stylesheet" href="aparencia.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>BláBlaluno</title>
+    <style>
+        body{
+            background-color: white;
+        }
+        main{
+            width: 80vw;
+            margin: auto;
+        }        
+    </style>
 </head>
 
 <body>
-    <h1>
-        <div class="Topo">
-            <div class="BláBlaluno"><span>BláBlaluno </span>
+    <main>
+        <div>
+        <h1 class="BláBlaluno">
+            Blablaluno
                 <img src="https://static.thenounproject.com/png/293801-200.png" height="30px" alt="Carro de carona">
-            </div>
-    </h1>
-    <ul class="acessos">
+        </div>
+        </h1>
+    <div class="acessos">
         <button type="submit" class="confirm-button">Home</button>
         <a href="formulario.html" class="Cadastre-se">     
         <button type="Cadastre-se" class="confirm-button">Cadastre-se</button>
         <div class="Cadastre-se"> 
         </a><br>
         </div>
-    </ul>
-    <p class="descricao">
+    <p div class="descricao">
         O intuito deste projeto é auxiliar os alunos da sua faculdade com caronas!</p>
-    <img class="imagem1" src="carona2.jpg" alt="para o projeto">
+        <picture class="imagem1">   
+            <source media="(max-width:300px )" srcset="carona-pp.jpg" type="image/jpg">
+            <source media="(max-width:700px )" srcset="carona-p.jpg" type="image/jpg">        
+            <img class="imagem1" src="carona2.jpg" alt="para o projeto">
+        </picture>
     </div>
-
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
 </html>

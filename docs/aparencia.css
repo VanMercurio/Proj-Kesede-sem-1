@@ -1,4 +1,4 @@
-.BláBláWy {
+.BláBlaluno {
 
     color: rgb(250, 247, 247);
     text-align:left;
@@ -27,21 +27,24 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.imagem1 {
-    margin-left: 32rem;
+.imagem1 {    
+    margin-left: 10rem;
     margin-right: 20rem;
-    border: 1px solid #9e0e0e;
+    max-width: 80%;
+    margin: auto;
+    display: block;
+    
 }
 
 body {
-    margin: 50px 0 0;
-    padding: 0;
+    
     background: linear-gradient(to bottom, rgb(245, 102, 0), #ffffff);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
+.acessos{
+    margin-left: 2rem;
+}
 
 
 

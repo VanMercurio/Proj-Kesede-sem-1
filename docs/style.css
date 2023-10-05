@@ -4,6 +4,9 @@ body {
     background: linear-gradient(to bottom, rgb(245, 102, 0), #ffffff);
     background-repeat: no-repeat;
     background-size: cover;
+    display: block;
+    margin: auto;
+    width: 80%;
 }
 
 .Topo { 
@@ -18,7 +21,7 @@ body {
     align-items: baseline;
     z-index: 999;}
 
-.BláBlaWy {
+.BláBlaluno {
     color: rgb(250, 247, 247);
     text-align:left;
     font-size: 2rem;
@@ -41,7 +44,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-size: 15px;
-    margin-right: 50px;
+    margin-right: 100px;
 }
 
 .botao:hover {
@@ -103,6 +106,9 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+input{
+    width: 30vw;
+}
 
 .tit2{
     text-align: center;
@@ -123,29 +129,6 @@ body {
     text-decoration: none;
     display: inline-block;
     margin-right: 10px;
-}
-
-.gmail-button {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-    margin-right: 10px;
-    margin-top: 10px;
-    justify-content: center;
-}
-
-.apple-button {
-    background-color: #000;
-    color: rgb(255, 255, 255);
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-    margin-right: 10px;
-    margin-top: 10px;
 }
 
 .sia-button{background-color: #ff290d;
