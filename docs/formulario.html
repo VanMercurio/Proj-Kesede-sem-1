@@ -61,7 +61,28 @@
                     <input class="dados" type="Cidade" placeholder=" Cidade" id="cidade" name="cidade"><br>
                     <label for="estado"></label>
                     <input class="dados" type="estado" placeholder=" Estado" id="estado" name="estado">
-                <p class="tit2"><br>
+                    <div class="selecione">
+                    <p>Sexo:</p>
+                    <input type="radio" id="feminino" name="genero" value="feminino" required>
+                    <label for="feminino">Feminino</label>
+                    
+                    <input type="radio" id="masculino" name="genero" value="masculino" required>
+                    <label for="masculino">Masculino</label>
+                    
+                    <input type="radio" id="outro" name="genero" value="outro" required>
+                    <label for="outro">Outro</label><br><br>
+                    <p>O que você é?</p>
+                    <input type="radio" id="carona" name="tipo" value="carona" required>
+                    <label for="carona">Carona</label>
+                    
+                    <input type="radio" id="motorista" name="tipo" value="motorista" required>
+                    <label for="motorista">Motorista</label>
+                    
+                    <br><br>
+                    <label for="data_nascimento">Data de Nascimento:</label>
+                    <input type="date" name="data_nascimento" id="data_nascimento" required>
+                    </div>
+                    <p class="tit2"><br>
                     <br>
                     <br>
                 <p class="termos"><input type="checkbox" id="aceitar" name="aceitar"> Para continuar, leia e aceite
