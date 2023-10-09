@@ -1,2 +1,2 @@
 # Projeto Kesede
-Prpjeto criado para Paradigmas de linguagem 
+Projeto criado para Paradigmas de linguagem 
