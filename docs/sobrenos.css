@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(to bottom, rgb(245, 102, 0), #ffffff);
+    background-repeat: no-repeat;
+    
+}
+.titulo{
+    color: rgb(250, 247, 247);
+    text-align:left;
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+}
+.texto{
+    font-size: 1.2rem;
+    margin-left: 40px;
+    margin-right: auto;
+}
+fieldset{
+    
+    margin-left: 17%;
+    width:50%;
+    height:50%;
+    border-radius: 5%;
+    padding:7%    
+}
+button{
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
