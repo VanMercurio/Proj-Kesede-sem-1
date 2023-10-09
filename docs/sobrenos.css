@@ -12,8 +12,8 @@ body{
 }
 .texto{
     font-size: 1.2rem;
-    margin-left: 40px;
-    margin-right: auto;
+    
+    
 }
 fieldset{
     
@@ -25,5 +25,5 @@ fieldset{
 }
 button{
     margin-bottom: 2%;
-    margin-left: 5%;
+    margin-left: 10%;
 }
