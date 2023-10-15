@@ -44,8 +44,14 @@ body {
 .acessos{
     margin-left: 2rem;
 }
+.esquerda{
+    text-align: right;
+   
+}
+.direita{
+    text-align: left;
 
-
+}
 
 
 
