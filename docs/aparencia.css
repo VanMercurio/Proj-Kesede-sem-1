@@ -1,19 +1,30 @@
-.BláBlaluno {
+:root{
+    --color-white:#ffffff;
+    --color-red:#e63636;
+    --color-dark1:#181818;
+    --color-dark2:#1e1e1e;
+    --color-orange1:#f1af80;
+    --color-orange2: #f7934b;
+    --color-orange3:#f9e0ce;
+    --color-blue:#1d054e;
+}
 
-    color: rgb(250, 247, 247);
+.BláBlaluno {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-blue);
     text-align:left;
     font-size: 2rem;
-    margin-left: 3%;
+    margin-left: 7%;
     display: flex;
     align-items: center;
 
 }
 
 .descricao {
-    color: rgb(245, 241, 241);
+    color: var(--color-blue);
     text-align: center;
     font-size: 1.5rem;
-
+    
 }
 
 .subtitulo {
@@ -32,26 +43,23 @@
     max-width: 80%;
     margin: auto;
     display: block;
+    border-radius:  15%;
     
 }
 
-body {
-    
-    background: linear-gradient(to bottom, rgb(245, 102, 0), #ffffff);
-    background-repeat: no-repeat;
-   
+button[type="submit"]{
+    padding: 1rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;    
+    color: var(--color-blue);
+    background-color: var(--color-blue)
+    cursor: pointer;
+  }
+  button[type="submit"]:hover{
+    background-color: var(--color-orange2);
 }
-.acessos{
-    margin-left: 2rem;
-}
-.esquerda{
-    text-align: right;
-   
-}
-.direita{
-    text-align: left;
-
-}
-
 
 
