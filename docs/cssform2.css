@@ -72,7 +72,7 @@ h3{
 
 .inputs:focus{
     border-color: var(--color-red);
-    border: 2px solid var(--color-red);
+    border: 3px solid var(--color-red);
 }
 
 .box-select{

@@ -23,35 +23,33 @@
                         <h3 class="subtitulo">Bem vindo ao BláBlaluno!</h3>
                 
     <div class="content">
-        <h2>Cadastre-se</h2>
-        <form id="form">
+        <h2>Cadastre-se</h2> <!--Início do formulário-->
+        <form  action="/action_page.php" id="form"> <!--Para lincar o BD-->
             <div>
-                <input type="text" id="name" placeholder="Digite seu nome completo" class="inputs required" oninput="nameValidate()">
-                <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
+                <input type="text" id="name" placeholder="Digite seu nome completo" class="inputs required" oninput="nameValidate()">  <!--Nome-->             
             </div>
             <div>
-                <input type="text" id="adress" placeholder="Digite seu endereço" class="inputs required" oninput="addValidate()">
-                <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
+                <input type="text" id="adress" placeholder="Digite seu endereço" class="inputs required" oninput="addValidate()"> <!--endereço-->   
             </div>
             <div>
-                <input type="text" id="city" placeholder="Digite sua cidade" class="inputs required" oninput="cityValidate()">
-                <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
+                <input type="text" id="city" placeholder="Digite sua cidade" class="inputs required" oninput="cityValidate()">  <!--cidade-->   
+               
             </div>
             <div>
-                <input type="email" id="email" placeholder="Digite seu melhor e mail" class="inputs required" oninput="emailValidate()">
-                <span class="span-required">Digite um e mail válido</span>                
+                <input type="email" id="email" placeholder="Digite seu melhor e mail" class="inputs required" oninput="emailValidate()">  <!--email-->   
+                             
             </div>
             <div>
-                <input type="text" id="pontoref" placeholder="Digite um ponto de referência" class="inputs required" oninput="ptValidate()">
-                <span class="span-required">Ponto de refência</span>                
+                <input type="text" id="pontoref" placeholder="Digite um ponto de referência" class="inputs required" oninput="ptValidate()">  <!--ponto de referência-->   
+                              
             </div>
             <div>
-                <input type="password" id="password" placeholder="Digite uma senha" class="inputs required" oninput="mainPasswordValidate()">
-                <span class="span-required">Mínimo 8 caracteres</span>
+                <input type="password" id="password" placeholder="Digite uma senha" class="inputs required" oninput="mainPasswordValidate()"> <!--senha-->   
+               
             </div>
             <div>
-                <input type="password" id="repetpassword" placeholder="Repita a senha" class="inputs required" oninput="comparePassword()">
-                <span class="span-required">Senhas devem ser compativeis</span>
+                <input type="password" id="repetpassword" placeholder="Repita a senha" class="inputs required" oninput="comparePassword()">  <!--repita a senha-->   
+              
             </div>
             <p>Sexo:</p>
             <div class="box-select" id="sexo">
@@ -68,15 +66,16 @@
                     <label for="o">Outro</label>
                 </div>
             </div>
-            <p>Informações adicionais:</p>
+            
+            <p>Qual a sua classificação ?</p>
             <div class="box-select" id="adicionais">
                 <div>
                     <input type="checkbox" name="adicionais" id="a">
-                    <label for="a">Fuma</label>
+                    <label for="a">Carona</label>
                 </div>
                 <div>
                     <input type="checkbox" name="adicionais" id="a">
-                    <label for="a">Animal de estimação</label>
+                    <label for="a">Motorista</label>
                 </div>               
             </div>
             <button type="submit">Enviar</button>
