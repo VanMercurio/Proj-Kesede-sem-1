@@ -46,8 +46,8 @@
         return;
     } 
       //Verifica se a senha é igual
-      if(!comparePassword(repetInput.value == passwordInput)){
-        alert("Aa Senhas precisam iguais");
+      if(repetInput.value == passwordInput){
+        alert("Aa Senhas não conferem");
         return;
     } 
 
