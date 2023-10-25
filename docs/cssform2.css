@@ -21,14 +21,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 125vh;
+    height: 130vh;
 }
 .content{
     background-color: var(--color-orange2);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 10px;    
     
-    overflow: auto;
 }
 
 .termos{
@@ -81,6 +80,9 @@ h3{
     font-weight: bold;
     gap: 1rem;
 }
+.enviar{
+    margin: 35%;
+}
 
 button[type="submit"]{
     padding: 1rem;
@@ -89,13 +91,13 @@ button[type="submit"]{
     border: none;
     border-radius: 5px;
     margin-top: 1rem;
-    background-color: var(--color-orange1);
+    background-color: var(--color-orange2);
     color: var(--color-blue);
     cursor: pointer;
 }
 
 button[type="submit"]:hover{
-    background-color: var(--color-orange2);
+    background-color: var(--color-orange3);
 }
 .home{
     padding: 1rem;
